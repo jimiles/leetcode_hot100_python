@@ -123,3 +123,8 @@ dfs(右)
 # 对称二叉树
 
 判断的时候应该先考虑是不是空的情况，然后分别考虑left.left == right.right 和left.right == right.left
+
+
+# 二叉树的直径
+
+
