@@ -131,6 +131,17 @@ dfs(右)
 
 # 二叉树的层序遍历
 
+层序遍历用BFS算法，模版如下：
+queue = deque(root)
+while queue:
+    size = len(queue)
+    for _ in range(size):
+    root = queue.popleft()
+    res.append(root.val)
+    queue.popright(root.left)
+    queue.popright(root.right)
+
+    
 
 # 将有序数组转换为二叉搜索树
 
