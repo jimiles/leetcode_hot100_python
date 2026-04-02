@@ -141,7 +141,7 @@ while queue:
     queue.popright(root.left)
     queue.popright(root.right)
 
-    
+
 
 # 将有序数组转换为二叉搜索树
 
@@ -158,4 +158,6 @@ while queue:
 # 二叉树展开为链表
 
 
-# 
+# 从前序和中序遍历序列构造二叉树
+
+
